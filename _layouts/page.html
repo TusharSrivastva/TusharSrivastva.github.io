@@ -2,9 +2,12 @@
 layout: default
 ---
 <article class="page">
-  <header class="page-head">
-    <h1>{{ page.title }}</h1>
-    {%- if page.lede -%}<p class="lede">{{ page.lede }}</p>{%- endif -%}
+  <header class="page-head{% if page.photo %} with-photo{% endif %}">
+    {%- if page.photo -%}<img src="{{ page.photo | relative_url }}" alt="{{ site.author.name }}" width="120" height="120">{%- endif -%}
+    <div>
+      <h1>{{ page.title }}</h1>
+      {%- if page.lede -%}<p class="lede">{{ page.lede }}</p>{%- endif -%}
+    </div>
   </header>
   <div class="prose">
     {{ content }}

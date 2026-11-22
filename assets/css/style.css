@@ -90,7 +90,10 @@ img { max-width: 100%; height: auto; display: block; }
 .page-head { padding-top: 32px; }
 .page-head h1 { font-size: clamp(30px, 4.6vw, 38px); letter-spacing: -0.025em; line-height: 1.15; font-weight: 600; margin: 0 0 10px; }
 .page-head .lede { color: var(--muted); font-size: 18px; margin: 0 0 32px; max-width: 40em; }
-.about-photo { width: 168px; height: 168px; border-radius: 50%; object-fit: cover; margin: 8px 0 28px; }
+.page-head.with-photo { display: grid; grid-template-columns: 120px 1fr; gap: 28px; align-items: center; margin-bottom: 32px; }
+.page-head.with-photo img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; }
+.page-head.with-photo .lede { margin-bottom: 0; }
+@media (max-width: 520px) { .page-head.with-photo { grid-template-columns: 1fr; gap: 16px; } .page-head.with-photo img { width: 96px; height: 96px; } }
 
 /* Posts */
 .post-head { padding-top: 28px; margin-bottom: 8px; }

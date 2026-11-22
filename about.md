@@ -3,9 +3,8 @@ layout: page
 title: About
 permalink: /about/
 lede: Gen AI engineer building AI systems from 0 → 1.
+photo: /assets/img/profile.jpg
 ---
-
-<img class="about-photo" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Tushar Srivastava" width="168" height="168">
 
 I'm Tushar Srivastava, a Gen AI engineer. I design and build AI systems from the ground up: the architecture, the trade-offs, and the engineering it takes to make them work for real users.
 
