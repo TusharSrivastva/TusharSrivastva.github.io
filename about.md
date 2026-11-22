@@ -17,7 +17,7 @@ Most of my work is taking AI products from 0 → 1 in production:
 
 ## This site
 
-I write up experiments here. I test new claims in machine learning myself, publish the code and every log, and report what worked and what didn't, including the negative results.
+I write here about complex system architecture, difficult problems and things I find interesting, along with my own experiments on how language models and neural networks behave.
 
 ## Elsewhere
 
