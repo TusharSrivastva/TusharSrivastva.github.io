@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+lede: Gen AI engineer building AI systems from 0 → 1.
 ---
 
 I'm Tushar Srivastava, a Gen AI engineer. I design and build AI systems from the ground up: the architecture, the trade-offs, and the engineering it takes to make them work for real users.

@@ -1,0 +1,8 @@
+- title: Weight-space programming on a classifier
+  description: Can an LLM write or edit a neural network's weights directly, with no training data? An independent test of MIT CSAIL's weight-space programming idea on a 513-parameter classifier, with every prompt and model reply logged.
+  tags: [LLMs, Neural networks, Experiment design]
+  links:
+    - label: Write-up
+      url: /2026/11/22/weight-space-programming/
+    - label: Code
+      url: https://github.com/TusharSrivastva/weight-space-classifier

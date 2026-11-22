@@ -1,8 +1,44 @@
 title: Tushar Srivastava
-description: Notes on machine learning experiments.
-theme: minima
+tagline: Gen AI engineer
+description: Gen AI engineer building AI systems from 0 → 1. Notes and experiments on LLMs, retrieval, agents and neural networks.
+url: "https://tusharsrivastva.github.io"
+baseurl: ""
+lang: en
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-github_username: TusharSrivastva
+
+author:
+  name: Tushar Srivastava
+
+social:
+  name: Tushar Srivastava
+  links:
+    - https://github.com/TusharSrivastva
+    - https://www.linkedin.com/in/tusharsrivastava11/
+
+links:
+  github: https://github.com/TusharSrivastva
+  linkedin: https://www.linkedin.com/in/tusharsrivastava11/
+
+nav:
+  - title: Writing
+    url: /writing/
+  - title: Projects
+    url: /projects/
+  - title: About
+    url: /about/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 kramdown:
+  input: GFM
   math_engine: mathjax
+  syntax_highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -2,9 +2,8 @@
 layout: post
 title: "Knowledge Compilation into Neural Network Weights: Can LLMs Build Classifiers Without Training Data?"
 date: 2026-11-22
+description: "Can an LLM write a neural network's weights without seeing any data? I tested MIT CSAIL's weight-space programming idea on a small classifier, with and without the rule that generated the data."
 ---
-
-**Author:** Tushar Srivastava
 
 ## Abstract
 

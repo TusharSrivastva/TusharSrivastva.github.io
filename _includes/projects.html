@@ -1,0 +1,14 @@
+<div class="post-list">
+  {%- for p in site.data.projects -%}
+  <div class="project-card">
+    <h3>{{ p.title }}</h3>
+    <p>{{ p.description }}</p>
+    <div class="tags">{%- for t in p.tags -%}<span class="tag">{{ t }}</span>{%- endfor -%}</div>
+    <div class="project-links">
+      {%- for l in p.links -%}
+        {%- if l.url contains "://" -%}<a href="{{ l.url }}">{{ l.label }} ↗</a>{%- else -%}<a href="{{ l.url | relative_url }}">{{ l.label }} →</a>{%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+  {%- endfor -%}
+</div>
