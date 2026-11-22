@@ -1,6 +1,6 @@
 - title: Weight-space programming on a classifier
   year: 2026
-  description: The code behind my write-up on LLM-written neural network weights. A reproducible notebook with a gradient-descent baseline, LLM-written and LLM-edited weights, and every prompt and model reply logged so it re-runs offline.
+  description: Can an LLM build a working neural network by writing its weights directly, with no training? I tested this on a small classifier, having Claude Opus 5.5 write the weights from scratch and edit a network trained with gradient descent, with and without the rule behind the data. Given the rule, its network reached 93% test accuracy against 79% for gradient descent. Without it, the LLM did worse than always guessing the most common class.
   stack: Python, NumPy, scikit-learn, Claude Opus 5.5
   links:
     - label: Code
