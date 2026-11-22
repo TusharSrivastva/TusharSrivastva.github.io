@@ -32,6 +32,11 @@ title: Tushar Srivastava
 </section>
 
 <section class="block">
+  <h2><a href="{{ '/writing/' | relative_url }}">Writing</a></h2>
+  {% include post-list.html posts=site.posts %}
+</section>
+
+<section class="block">
   <h2><a href="{{ '/projects/' | relative_url }}">Projects</a></h2>
   {% include projects.html %}
 </section>

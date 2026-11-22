@@ -1,14 +1,7 @@
-- title: "Knowledge Compilation into Neural Network Weights: Can LLMs Build Classifiers Without Training Data?"
-  authors: Tushar Srivastava
-  venue: Independent research, November 2026
-  year: 2026
-  summary: Tests whether an LLM can write a classifier's weights directly, with no gradients and no data. Given the rule that generated the data, Claude Opus 5.5 wrote a network that reached 93% test accuracy. Without the rule, it fell below always guessing the majority class.
+- title: Sentiment Analysis of COVID-19 Tweets Using BiLSTM and CNN-BiLSTM
+  venue: 11th International Conference on Recent Trends in Computing (ICRTC 2022), Springer, vol. 600, pp. 523–535
+  year: 2023
+  summary: Classifies the sentiment of COVID-19 tweets as positive, neutral or negative with two deep learning models. The BiLSTM reached 84% accuracy and the CNN-BiLSTM 80%. Peer reviewed and Scopus indexed.
   links:
-    - label: Read the paper
-      url: /research/knowledge-compilation/
-    - label: PDF
-      url: /assets/papers/knowledge-compilation-srivastava-2026.pdf
-    - label: Code and logs
-      url: https://github.com/TusharSrivastva/weight-space-classifier
-    - label: Notebook
-      url: https://github.com/TusharSrivastva/weight-space-classifier/blob/main/weight_space_classifier.ipynb
+    - label: Find on Springer
+      url: https://link.springer.com/search?query=%22Sentiment+Analysis+of+COVID-19+Tweets+Using+BiLSTM+and+CNN-BiLSTM%22
