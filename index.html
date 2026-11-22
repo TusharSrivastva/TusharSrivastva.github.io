@@ -3,19 +3,28 @@ layout: default
 title: Tushar Srivastava
 ---
 <section class="intro">
-  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Tushar Srivastava" width="112" height="112">
+  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Tushar Srivastava" width="128" height="128">
   <div>
     <h1>Tushar Srivastava</h1>
-    <p>I'm a Gen AI engineer. I design and build AI systems from the ground up: retrieval, agents, real-time voice and the infrastructure under them.</p>
-    <p>Here I test new machine learning ideas in the open and publish the code and every log.</p>
+    <p>I'm a Gen AI engineer. I build AI products end to end, from the system architecture to running them in production for real users.</p>
+    <p>Outside of work, I run independent experiments on how language models and neural networks behave, and publish the code and full logs so anyone can check the results.</p>
     <div class="links">
       <a href="{{ site.links.github }}">GitHub</a>
       <a href="{{ site.links.linkedin }}">LinkedIn</a>
-      <a href="{{ '/about/' | relative_url }}">About me</a>
+      <a href="{{ '/about/' | relative_url }}">More about me</a>
     </div>
   </div>
 </section>
 
+<section class="block">
+  <h2>What I work on</h2>
+  <dl class="focus">
+    <div><dt>Retrieval and RAG</dt><dd>Search that returns what's relevant to the question, not just what's most similar to it.</dd></div>
+    <div><dt>AI agents</dt><dd>Tool use, memory and state, and knowing when a plain workflow is the better design.</dd></div>
+    <div><dt>Real-time voice AI</dt><dd>Speech pipelines where every stage adds latency the user can hear.</dd></div>
+    <div><dt>LLM infrastructure</dt><dd>Model routing, evaluation, cost and reliability once a system is live.</dd></div>
+  </dl>
+</section>
 
 <section class="block">
   <h2><a href="{{ '/research/' | relative_url }}">Research</a></h2>

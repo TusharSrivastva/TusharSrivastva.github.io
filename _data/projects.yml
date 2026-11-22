@@ -6,7 +6,7 @@
     - label: Code
       url: https://github.com/TusharSrivastva/weight-space-classifier
     - label: Paper
-      url: /2026/11/22/weight-space-programming/
+      url: /research/knowledge-compilation/
 - title: Bengaluru restaurant price predictor
   year: 2023
   description: Predicts the cost of a meal for two at Bengaluru restaurants from about 51,000 Zomato listings. An end-to-end pipeline from data ingestion and model selection to a Flask app deployed on AWS Elastic Beanstalk, with CI/CD in Jenkins.

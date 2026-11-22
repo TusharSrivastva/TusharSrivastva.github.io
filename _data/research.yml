@@ -5,7 +5,9 @@
   summary: Tests whether an LLM can write a classifier's weights directly, with no gradients and no data. Given the rule that generated the data, Claude Opus 5.5 wrote a network that reached 93% test accuracy. Without the rule, it fell below always guessing the majority class.
   links:
     - label: Read the paper
-      url: /2026/11/22/weight-space-programming/
+      url: /research/knowledge-compilation/
+    - label: PDF
+      url: /assets/papers/knowledge-compilation-srivastava-2026.pdf
     - label: Code and logs
       url: https://github.com/TusharSrivastva/weight-space-classifier
     - label: Notebook
