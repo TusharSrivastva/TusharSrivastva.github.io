@@ -17,7 +17,7 @@ Most of my work is taking AI products from 0 → 1 in production:
 
 ## This site
 
-I write here about complex system architecture, difficult problems and things I find interesting, along with my own experiments on how language models and neural networks behave.
+I run independent experiments on how language models and neural networks behave, and write here about complex architecture, difficult problems and things I find interesting.
 
 ## Elsewhere
 
