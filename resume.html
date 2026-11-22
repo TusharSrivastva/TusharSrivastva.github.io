@@ -1,0 +1,99 @@
+---
+layout: default
+title: Resume
+permalink: /resume/
+description: Resume of Tushar Srivastava, Gen AI engineer.
+---
+<article class="resume">
+  <header class="resume-head">
+    <div>
+      <h1>Tushar Srivastava</h1>
+      <p class="resume-role">Gen AI Engineer, India</p>
+      <p class="resume-contact">
+        <a href="{{ site.links.linkedin }}">linkedin.com/in/tusharsrivastava11</a>
+        <a href="{{ site.links.github }}">github.com/TusharSrivastva</a>
+        <a href="{{ site.url }}">tusharsrivastva.github.io</a>
+      </p>
+    </div>
+    <a class="button" href="{{ '/assets/tushar-srivastava-resume.pdf' | relative_url }}" download>Download PDF</a>
+  </header>
+
+  <section class="resume-section">
+    <h2>Summary</h2>
+    <p>Gen AI engineer who designs and builds AI systems from the ground up, from architecture to production. I work on problems without off-the-shelf answers: retrieval that finds the right thing rather than just a similar thing, agents that stay reliable over long tasks, and real-time systems fast enough to feel natural. Python, FastAPI, LLMs, embeddings and vector databases. Background in NLP research, with a peer-reviewed Springer publication. GATE 2026 CSE qualified.</p>
+  </section>
+
+  <section class="resume-section">
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="job-line"><h3>Gen AI Engineer, Goonj AI</h3><span>Jun 2026 – Present</span></div>
+      <ul>
+        <li>Designed and built core AI features from scratch, owning architecture through to production.</li>
+        <li>Architected context-aware retrieval systems for problems where semantic similarity alone wasn't enough.</li>
+        <li>Designed backend systems and integrations for the product beyond the AI layer.</li>
+        <li>Worked on LLM latency, caching and reliability for real-time conversational features.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-line"><h3>AI Engineer (Contract), Studio Clarion</h3><span>Feb 2025 – Mar 2026</span></div>
+      <ul>
+        <li>Built an agentic RAG system with LangChain covering document loading, chunking, embeddings and context injection into GPT-4o-mini, enabling AI search across 100+ enterprise documents.</li>
+        <li>Integrated pgvector as the vector store for semantic search and exposed the retrieval pipeline through FastAPI.</li>
+        <li>Built a responsive React frontend delivering real-time answers to user queries.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-line"><h3>Backend Developer, Freelance</h3><span>Apr 2023 – Feb 2024</span></div>
+      <ul>
+        <li>Shipped a production FastAPI microservice that extracts and serves job listings from 1,000+ companies, in modular, testable Python.</li>
+        <li>Designed a modular data pipeline across multiple APIs, handling authentication, pagination and rate limits.</li>
+        <li>Used Pydantic models to validate and normalise data across different API responses.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-line"><h3>NLP Researcher, Amity University</h3><span>Mar 2022 – Mar 2023</span></div>
+      <ul>
+        <li>Ran end-to-end NLP research on sentiment analysis of COVID-19 tweets, from NLTK feature pipelines and EDA to model evaluation.</li>
+        <li>Designed BiLSTM and CNN-BiLSTM models in TensorFlow, reaching 84% accuracy.</li>
+        <li>Published the findings in a peer-reviewed, Scopus-indexed Springer publication.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="resume-section">
+    <h2>Publication</h2>
+    <p><strong>Sentiment Analysis of COVID-19 Tweets Using BiLSTM and CNN-BiLSTM.</strong> 11th International Conference on Recent Trends in Computing (ICRTC 2022), Springer, vol. 600, pp. 523–535, 2023.</p>
+  </section>
+
+  <section class="resume-section">
+    <h2>Projects</h2>
+    <div class="job">
+      <div class="job-line"><h3><a href="https://github.com/TusharSrivastva/weight-space-classifier">Weight-space programming on a classifier</a></h3><span>2026</span></div>
+      <p>Independent experiment testing whether an LLM can write a neural network's weights with no training data. Reproducible notebook with every model prompt and reply logged. <a href="{{ '/2026/11/22/weight-space-programming/' | relative_url }}">Write-up</a></p>
+    </div>
+    <div class="job">
+      <div class="job-line"><h3><a href="https://github.com/TusharSrivastva/bengaluru-restaurant-price-predictor">Bengaluru restaurant price predictor</a></h3><span>2023</span></div>
+      <p>End-to-end ML app predicting the cost of a meal for two from about 51,000 Zomato listings: scikit-learn pipeline, Flask app on AWS Elastic Beanstalk, CI/CD with Jenkins.</p>
+    </div>
+  </section>
+
+  <section class="resume-section">
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt>AI and ML</dt><dd>LLMs, RAG, AI agents, embeddings and semantic search, real-time voice AI, NLP, TensorFlow, scikit-learn</dd>
+      <dt>Backend</dt><dd>Python, FastAPI, Flask, REST APIs, Pydantic, SQL</dd>
+      <dt>Data and infrastructure</dt><dd>LangChain, pgvector and vector databases, AWS, Docker, Jenkins, Git</dd>
+      <dt>Frontend</dt><dd>React, HTML, CSS</dd>
+    </dl>
+  </section>
+
+  <section class="resume-section">
+    <h2>Education and certification</h2>
+    <div class="job-line"><h3>B.Tech, Computer Science and Engineering, Amity University</h3><span>2018 – 2022</span></div>
+    <div class="job-line"><h3>GATE 2026 qualified, Computer Science and Engineering</h3><span>2026</span></div>
+  </section>
+</article>
