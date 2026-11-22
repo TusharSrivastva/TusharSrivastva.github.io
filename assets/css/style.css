@@ -219,3 +219,9 @@ img { max-width: 100%; height: auto; display: block; }
   .resume-section p strong a { text-decoration: underline; text-decoration-color: #999; }
   @page { margin: 14mm 16mm; }
 }
+
+/* Lists inside page prose: keep list spacing, not article spacing */
+.prose .entry h3 { font-size: 18.5px; margin: 0 0 6px; }
+.prose .entry p { margin: 0 0 8px; }
+.prose .entries { padding: 0; margin: 0; }
+.prose .entry { margin: 0; }
