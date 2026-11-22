@@ -175,6 +175,7 @@ img { max-width: 100%; height: auto; display: block; }
 .resume-section { padding-top: 28px; }
 .resume-section > h2 { font-size: 19px; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 14px; color: rgb(var(--pos)); }
 .resume-section p { margin: 0 0 10px; }
+.resume-section p strong a { color: var(--ink); text-decoration-color: rgb(var(--pos) / .5); }
 .job { margin-bottom: 20px; }
 .job-line { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
 .job-line h3 { font-size: 17px; font-weight: 600; margin: 0 0 4px; line-height: 1.4; }
@@ -216,5 +217,6 @@ img { max-width: 100%; height: auto; display: block; }
   .job li { margin: 1pt 0; }
   .skills { grid-template-columns: 130pt 1fr; gap: 2pt 10pt; }
   .resume a { color: inherit; text-decoration: none; }
+  .resume-section p strong a { text-decoration: underline; text-decoration-color: #999; }
   @page { margin: 14mm 16mm; }
 }

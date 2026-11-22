@@ -1,7 +1,8 @@
 - title: Sentiment Analysis of COVID-19 Tweets Using BiLSTM and CNN-BiLSTM
-  venue: 11th International Conference on Recent Trends in Computing (ICRTC 2022), Springer, vol. 600, pp. 523–535
+  authors: Tushar Srivastava, Deepak Arora, Puneet Sharma
+  venue: Recent Trends in Computing (ICRTC 2022), Lecture Notes in Networks and Systems, vol. 600, Springer, pp. 523–535
   year: 2023
   summary: Classifies the sentiment of COVID-19 tweets as positive, neutral or negative with two deep learning models. The BiLSTM reached 84% accuracy and the CNN-BiLSTM 80%. Peer reviewed and Scopus indexed.
   links:
-    - label: Find on Springer
-      url: https://link.springer.com/search?query=%22Sentiment+Analysis+of+COVID-19+Tweets+Using+BiLSTM+and+CNN-BiLSTM%22
+    - label: Read on Springer
+      url: https://doi.org/10.1007/978-981-19-8825-7_45
