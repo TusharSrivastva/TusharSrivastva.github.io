@@ -1,10 +1,10 @@
 <footer class="site-footer">
-  <div class="wrap footer-inner">
-    <span>© {{ site.time | date: "%Y" }} {{ site.author.name }}</span>
-    <span class="footer-links">
+  <div class="wrap">
+    <span>{{ site.author.name }}, {{ site.time | date: "%Y" }}</span>
+    <nav aria-label="Elsewhere">
       <a href="{{ site.links.github }}">GitHub</a>
       <a href="{{ site.links.linkedin }}">LinkedIn</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-    </span>
+    </nav>
   </div>
 </footer>

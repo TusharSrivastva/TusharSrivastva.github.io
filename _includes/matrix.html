@@ -1,0 +1,10 @@
+<div class="grid" role="img" aria-label="{{ include.label }}">
+  {%- for row in include.m -%}
+    {%- for v in row -%}
+      {%- if forloop.index0 == 10 or forloop.index0 == 20 -%}<b></b>{%- endif -%}
+      {%- assign a = v | abs -%}
+      {%- if a < 0.04 -%}<i></i>{%- elsif v > 0 -%}<i class="p" style="--a:{{ a | times: 0.85 | plus: 0.15 | round: 2 }}"></i>{%- else -%}<i class="n" style="--a:{{ a | times: 0.85 | plus: 0.15 | round: 2 }}"></i>{%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+</div>
+<div class="groups" aria-hidden="true"><span>_mean features</span><span></span><span>_peak features</span><span></span><span>_spread features</span></div>

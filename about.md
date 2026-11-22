@@ -5,6 +5,8 @@ permalink: /about/
 lede: Gen AI engineer building AI systems from 0 → 1.
 ---
 
+<img class="about-photo" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Tushar Srivastava" width="168" height="168">
+
 I'm Tushar Srivastava, a Gen AI engineer. I design and build AI systems from the ground up: the architecture, the trade-offs, and the engineering it takes to make them work for real users.
 
 Most of my work is taking AI products from 0 → 1 in production:
@@ -14,7 +16,7 @@ Most of my work is taking AI products from 0 → 1 in production:
 - **Real-time voice AI:** where latency comes from and how to remove it
 - **LLM infrastructure:** routing, evaluation, cost and reliability
 
-## This blog
+## This site
 
 I write up experiments here. I test new claims in machine learning myself, publish the code and every log, and report what worked and what didn't, including the negative results.
 

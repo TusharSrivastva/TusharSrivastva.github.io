@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-lede: Code for the experiments I write about. Everything is open, including the logs.
+lede: Things I've built, from research code to deployed ML apps.
 permalink: /projects/
 ---
 {% include projects.html %}

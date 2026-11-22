@@ -1,8 +1,16 @@
 - title: Weight-space programming on a classifier
-  description: Can an LLM write or edit a neural network's weights directly, with no training data? An independent test of MIT CSAIL's weight-space programming idea on a 513-parameter classifier, with every prompt and model reply logged.
-  tags: [LLMs, Neural networks, Experiment design]
+  year: 2026
+  description: The code behind my paper on LLM-written neural network weights. A reproducible notebook with a gradient-descent baseline, LLM-written and LLM-edited weights, and every prompt and model reply logged so it re-runs offline.
+  stack: Python, NumPy, scikit-learn, Claude Opus 5.5
   links:
-    - label: Write-up
-      url: /2026/11/22/weight-space-programming/
     - label: Code
       url: https://github.com/TusharSrivastva/weight-space-classifier
+    - label: Paper
+      url: /2026/11/22/weight-space-programming/
+- title: Bengaluru restaurant price predictor
+  year: 2023
+  description: Predicts the cost of a meal for two at Bengaluru restaurants from about 51,000 Zomato listings. An end-to-end pipeline from data ingestion and model selection to a Flask app deployed on AWS Elastic Beanstalk, with CI/CD in Jenkins.
+  stack: Python, scikit-learn, Flask, AWS Elastic Beanstalk, Jenkins
+  links:
+    - label: Code
+      url: https://github.com/TusharSrivastva/bengaluru-restaurant-price-predictor

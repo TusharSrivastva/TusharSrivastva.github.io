@@ -1,0 +1,15 @@
+<ul class="entries">
+  {%- for r in site.data.research -%}
+  <li class="entry">
+    <span class="year">{{ r.year }}</span>
+    <div>
+      <h3><a href="{{ r.links[0].url | relative_url }}">{{ r.title }}</a></h3>
+      <p class="by">{{ r.authors }}. {{ r.venue }}.</p>
+      <p>{{ r.summary }}</p>
+      <div class="actions">
+        {%- for l in r.links -%}<a href="{{ l.url | relative_url }}">{{ l.label }}</a>{%- endfor -%}
+      </div>
+    </div>
+  </li>
+  {%- endfor -%}
+</ul>

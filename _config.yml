@@ -21,6 +21,8 @@ links:
   linkedin: https://www.linkedin.com/in/tusharsrivastava11/
 
 nav:
+  - title: Research
+    url: /research/
   - title: Writing
     url: /writing/
   - title: Projects
@@ -42,3 +44,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/profile.jpg
