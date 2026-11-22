@@ -1,0 +1,8 @@
+title: Tushar Srivastava
+description: Notes on machine learning experiments.
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+github_username: TusharSrivastva
+kramdown:
+  math_engine: mathjax
