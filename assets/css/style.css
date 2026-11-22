@@ -66,29 +66,6 @@ img { max-width: 100%; height: auto; display: block; }
   .intro img { width: 88px; height: 88px; }
 }
 
-/* Home: weight matrices */
-.weights { margin: 72px 0 0; }
-.weights h2 { font-size: 22px; letter-spacing: -0.015em; font-weight: 600; line-height: 1.3; margin: 0 0 6px; }
-.weights > p { margin: 0 0 28px; color: var(--muted); max-width: 36em; }
-.matrix { margin: 0 0 26px; }
-.matrix figcaption { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; font-size: 15px; margin-bottom: 10px; }
-.matrix figcaption strong { font-weight: 600; }
-.matrix figcaption span { color: var(--faint); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.grid {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr) 8px repeat(10, 1fr) 8px repeat(10, 1fr);
-  gap: 2px;
-}
-.grid i { display: block; aspect-ratio: 1; background: var(--cell); border-radius: 1px; }
-.grid i.p { background: rgb(var(--pos) / var(--a)); }
-.grid i.n { background: rgb(var(--neg) / var(--a)); }
-.grid b { display: block; }
-.groups { display: grid; grid-template-columns: 1fr 8px 1fr 8px 1fr; gap: 2px; margin-top: 8px; font-size: 13px; color: var(--faint); }
-.groups span:nth-child(even) { visibility: hidden; }
-.legend { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 14px; color: var(--muted); margin-top: 4px; }
-.legend i { display: inline-block; width: 11px; height: 11px; border-radius: 1px; margin-right: 7px; vertical-align: -1px; }
-.weights .more { margin-top: 18px; font-size: 16px; }
-
 /* Lists: research, projects, writing */
 .block { margin-top: 72px; }
 .block > h2 { font-size: 22px; letter-spacing: -0.015em; font-weight: 600; margin: 0 0 22px; }

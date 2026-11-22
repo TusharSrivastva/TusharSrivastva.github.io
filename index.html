@@ -16,27 +16,6 @@ title: Tushar Srivastava
   </div>
 </section>
 
-<section class="weights" aria-labelledby="weights-title">
-  <h2 id="weights-title">Same network, two ways to get the weights</h2>
-  <p>The first layer of a small classifier, 16 hidden units by 30 inputs. One was trained on data. The other was written by an LLM that saw no data at all, only the rule behind it.</p>
-
-  <figure class="matrix">
-    <figcaption><strong>Trained with gradient descent on 341 examples</strong><span>79% test accuracy</span></figcaption>
-    {% include matrix.html m=site.data.weights.gd label="Dense weight matrix: most of the 480 weights are non-zero." %}
-  </figure>
-
-  <figure class="matrix">
-    <figcaption><strong>Written by Claude Opus 5.5 from the rule, no data</strong><span>93% test accuracy</span></figcaption>
-    {% include matrix.html m=site.data.weights.llm label="Sparse weight matrix: 31 of 480 weights are non-zero, all on the mean features." %}
-  </figure>
-
-  <div class="legend">
-    <span><i style="background:rgb(14 124 123)"></i>Positive weight</span>
-    <span><i style="background:rgb(156 47 94)"></i>Negative weight</span>
-    <span><i style="background:#e8eae6"></i>Zero</span>
-  </div>
-  <p class="more"><a href="{{ '/2026/11/22/weight-space-programming/' | relative_url }}">Read how the LLM did it</a></p>
-</section>
 
 <section class="block">
   <h2><a href="{{ '/research/' | relative_url }}">Research</a></h2>
