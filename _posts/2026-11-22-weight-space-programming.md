@@ -5,6 +5,7 @@ date: 2026-11-22
 redirect_from:
   - /research/knowledge-compilation/
 math: true
+image: /assets/img/wsp-results.png
 description: "Can an LLM write a neural network's weights without seeing any data? I tested MIT CSAIL's weight-space programming idea on a small classifier, with and without the rule that generated the data."
 ---
 
